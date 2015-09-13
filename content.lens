@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <koken:meta />
+  <koken:title />
+  <koken:settings />
+</head>
+<body>
+<header>
+  <nav>
+    <koken:navigation />
+  </nav>
+</header>
+<koken:load>
+  <h2> {{ content.title | content.filename }} </h2> 
+  <koken:content_image>
+    <koken:img />
+  </koken:content_image>
+  <koken:content_video>
+    <koken:video />
+  </koken:content_video>
+  {{ content.caption paragraphs="true" }} 
+<koken:else>
+  <koken:note>
+    No image or video found 
+  </koken:note>
+</koken:load>
+<footer>
+  {{ site.copyright }} 
+</footer>
+</body>
+</html>
