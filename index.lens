@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <head>
+    <koken:meta />
+    <koken:title />
+    <koken:settings />
+  </head>
+  <body>
+      <nav>
+        <koken:navigation name="left"/>
+      </nav>
+      <koken:load source="content" filter:id="2">
+        <koken:img />
+      </koken:load>
+      <nav>
+        <koken:navigation name="right"/>
+      </nav>
+    <footer>
+      {{ site.copyright }}
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+body {
+	background: #F0F0F0;
+}
+
+nav {
+	list-style: none;
+  /*display: inline-block;	*/
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+ol.grid li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  width: 15%;
+}
