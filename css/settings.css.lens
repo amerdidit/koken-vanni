@@ -1,20 +1,83 @@
-body {
-	background: #F0F0F0;
+/****************************/
+/*    General Layout   */
+/****************************/
+
+html {
+  height: 100%
 }
 
-nav {
-	list-style: none;
-  /*display: inline-block;	*/
+body {
+	background: #F0F0F0;
+  height: 100%;
 }
+
+nav ul {
+	list-style: none;
+  padding-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgba(0,0,0,1);
+}
+
+nav ul li a:visited {
+  text-decoration: none;
+}
+
 img {
-  width: 100%;
-  max-width: 100%;
   height: auto;
 }
 
-ol.grid li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 10px 10px 0;
-  width: 15%;
+footer {
+  position:absolute;
+  bottom:0;
+  left:0;
 }
+
+/****************************/
+/*    Three Column Layout   */
+/****************************/
+
+.three-column-container {
+  display: flex;
+  height: 100%;
+}
+
+.column {
+  flex: 1;  
+}
+
+.column-one {
+  order: 1;
+}
+
+.column-one ul {
+ float: left;
+ padding-top: 50%;
+ padding-right: 15%;
+ padding-bottom: 0;
+ padding-left: 15%;
+}
+.column-two {
+  order: 2;
+  padding: auto 0;
+}
+
+.column-two img {
+}
+
+.column-three {
+  order: 3;
+}
+.column-three ul {
+  float: right;
+  padding-top: 50%;
+  padding-right: 15%;
+  padding-bottom: 0;
+  padding-left: 15%;
+}
+
+/****************************/
+/*    Vertical Allignment   */
+/****************************/

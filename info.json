@@ -9,11 +9,11 @@
     },
     "navigation_groups": {
         "left": {
-            "label": "left",
+            "label": "left-navigation",
             "defaults": [
                 {
                     "label": "ADRIANO VANNI",
-                    "url": "http://vanni.photo"
+                    "url": "/"
                 },
                 {
                     "label": "APINHEIROV@GMAIL.COM",
@@ -21,7 +21,24 @@
                 },
                 {
                     "label": "ABOUT",
-                    "url": "http://vanni.photo/about"
+                    "url": "/about"
+                }
+            ]
+        },
+        "right": {
+            "label": "right-navigation",
+            "defaults": [
+                {
+                    "label": "FILM",
+                    "url": "/film"
+                },
+                {
+                    "label": "FOTO",
+                    "url": "/foto"
+                },
+                {
+                    "label": "GRAPHIC DESIGN",
+                    "url": "/graphic-design"
                 }
             ]
         }

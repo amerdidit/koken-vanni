@@ -5,15 +5,22 @@
     <koken:settings />
   </head>
   <body>
-      <nav>
-        <koken:navigation name="left"/>
+    <div class="three-column-container">
+      <nav class="column column-one">
+        <koken:navigation group="left"/> 
       </nav>
-      <koken:load source="content" filter:tag="home-photo">
-        <koken:img />
-      </koken:load>
-      <nav>
-        <koken:navigation name="right"/>
+
+      <div class="column column-two">
+        <koken:load source="content" filter:tag="home-photo">
+          <koken:img />
+        </koken:load>
+      </div>
+
+      <nav class="column column-three">
+        <koken:navigation group="right"/> 
       </nav>
+    </div>
+    
     <footer>
       {{ site.copyright }}
     </footer>
