@@ -1,19 +1,29 @@
 {
-  "name": "Vanni",
-  "version": "0.0.2",
-  "description": "A custom photography/video portfolio made for Adriano Vanni",
-  "demo": "http://adriano.amerdid.it",
-  "author": {
-    "name": "Amer Hamzeh",
-    "link": "https://github.com/amerdidit"
-  }
-  "navigation_groups": {
-  "left": {
-    "label": "left",
-    "defaults": [
-      { "label": "ADRIANO VANNI", "url": "" },
-      { "label": "APINHEIROV@GMAIL.COM", "url": "mailto:APINHEIROV@GMAIL.COM" },
-      { "label": "ABOUT", "url": "http://vanni.photo/about" },
-    ]
-  }
+    "name": "Vanni",
+    "version": "0.0.2",
+    "description": "A custom photography/video portfolio made for Adriano Vanni",
+    "demo": "http://adriano.amerdid.it",
+    "author": {
+        "name": "Amer Hamzeh",
+        "link": "https://github.com/amerdidit"
+    },
+    "navigation_groups": {
+        "left": {
+            "label": "left",
+            "defaults": [
+                {
+                    "label": "ADRIANO VANNI",
+                    "url": ""
+                },
+                {
+                    "label": "APINHEIROV@GMAIL.COM",
+                    "url": "mailto:APINHEIROV@GMAIL.COM"
+                },
+                {
+                    "label": "ABOUT",
+                    "url": "http://vanni.photo/about"
+                }
+            ]
+        }
+    }
 }
