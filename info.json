@@ -20,8 +20,8 @@
                     "url": "mailto:APINHEIROV@GMAIL.COM"
                 },
                 {
-                    "label": "ABOUT",
-                    "url": "/about"
+                    "label": "ABOUT (COMING SOON)",
+                    "url": "#"
                 }
             ]
         },
@@ -29,16 +29,16 @@
             "label": "right-navigation",
             "defaults": [
                 {
-                    "label": "FILM",
-                    "url": "/film"
+                    "label": "FILM (COMING SOON)",
+                    "url": "#"
                 },
                 {
-                    "label": "FOTO",
-                    "url": "/foto"
+                    "label": "FOTO (COMING SOON)",
+                    "url": "#"
                 },
                 {
-                    "label": "GRAPHIC DESIGN",
-                    "url": "/graphic-design"
+                    "label": "GRAPHIC DESIGN (COMING SOON)",
+                    "url": "#"
                 }
             ]
         }
