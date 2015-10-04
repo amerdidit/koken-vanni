@@ -2,7 +2,7 @@
     "name": "Vanni",
     "version": "0.0.2",
     "description": "A custom photography/video portfolio made for Adriano Vanni",
-    "demo": "http://adriano.amerdid.it",
+    "demo": "http://vanni.photo",
     "author": {
         "name": "Amer Hamzeh",
         "link": "https://github.com/amerdidit"
@@ -13,7 +13,7 @@
             "defaults": [
                 {
                     "label": "ADRIANO VANNI",
-                    "url": ""
+                    "url": "http://vanni.photo"
                 },
                 {
                     "label": "APINHEIROV@GMAIL.COM",

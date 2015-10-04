@@ -8,7 +8,7 @@
       <nav>
         <koken:navigation name="left"/>
       </nav>
-      <koken:load source="content" filter:id="2">
+      <koken:load source="content" filter:tag="home-photo">
         <koken:img />
       </koken:load>
       <nav>
